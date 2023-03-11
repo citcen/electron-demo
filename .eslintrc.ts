@@ -1,6 +1,7 @@
-module.exports = {
+export default {
   root: true,
-  // parser: 'babel-eslint',
+  parser: "@babel/eslint-parser",
+  requireConfigFile: false,
   env: {
     node: true,
   },
@@ -8,6 +9,7 @@ module.exports = {
   extends: ["plugin:vue/base"],
   parserOptions: {
     parser: "babel-eslint",
+    ecmaVersion: 8,
   },
   plugins: ["html", "vue"],
   rules: {

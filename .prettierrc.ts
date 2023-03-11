@@ -1,4 +1,4 @@
-module.exports = {
+export default {
   // 一行最多 100 字符
   printWidth: 100,
   // 不使用缩进符，而使用空格

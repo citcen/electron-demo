@@ -2,8 +2,7 @@
   "name": "electron-app",
   "private": true,
   "version": "0.0.0",
-  "type": "module",
-  "main": "src/electron-main/main.cjs",
+  "main": "src/electron-main/main.ts",
   "scripts": {
     "serve": "concurrently \"npm run dev\" \"npm run start\" ",
     "dev": "vite",
